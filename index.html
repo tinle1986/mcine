@@ -1,90 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Movie Website</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>My Movie Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-	<link rel="stylesheet" href="./css/main.css">
-</head>
+  <body>
+    <!-- main menu -->
+    <header>
+      <div class="my-container01">
+        <div class="myNavBar">
+          <div class="myNavBar-left">
+            <div class="logoImg">
+              <a href="#">
+                <img src="./img/mcineLogo_200x200.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="myNavBar-right">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <div class="dropdown my-menu">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    HOME
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown my-menu ml-5">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    MOVIE
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown my-menu ml-5">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    SINGLE MOVIE
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown my-menu ml-5">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    SINGLE CINEMA
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown my-menu ml-5">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    SHOWTIME
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="dropdown my-menu ml-5">
+                  <div
+                    class="my-menu-item"
+                    data-toggle="dropdown"
+                    data-target="#menu01"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    TOP RATED
+                  </div>
+                  <div
+                    id="menu01"
+                    class="dropdown-menu animate slideIn"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of main menu -->
 
-<body>
-	<!-- main menu -->
-	<header>
-		<div class="my-container01">
-			<div class="myNavBar">
-				<div class="myNavBar-left">
-					<div class="logoImg">
-						<a href="#">
-							<img src="./img/mcineLogo_200x200.png" alt="">
-						</a>
-					</div>
-				</div>
-				<div class="myNavBar-right">
-					<nav>
-						<ul>
-							<li><a href="#home">Home</a></li>
-							<li><a href="#news">News</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropbtn">Dropdown</a>
-								<div class="dropdown-content">
-									<a href="#">Link 1</a>
-									<a href="#">Link 2</a>
-									<a href="#">Link 3</a>
-								</div>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- end of main menu -->
+    <!-- hot movies -->
+    <section></section>
+    <!-- end of hot movies -->
 
-	<!-- hot movies -->
-	<section>
+    <!-- top movies -->
+    <section></section>
+    <!-- end of top movies -->
 
-	</section>
-	<!-- end of hot movies -->
+    <!-- movie zone -->
+    <section></section>
+    <!-- end of movie zone -->
 
-	<!-- top movies -->
-	<section>
+    <!-- movie schedule -->
+    <section></section>
+    <!-- end of movie schedule -->
 
-	</section>
-	<!-- end of top movies -->
+    <!-- event -->
+    <section></section>
+    <!-- end of event -->
 
-	<!-- movie zone -->
-	<section>
+    <!-- footer -->
+    <footer></footer>
+    <!-- end of footer -->
 
-	</section>
-	<!-- end of movie zone -->
+    <!-- copyrights -->
+    <section></section>
+    <!-- end of copyrights -->
 
-	<!-- movie schedule -->
-	<section>
-
-	</section>
-	<!-- end of movie schedule -->
-
-	<!-- event -->
-	<section>
-
-	</section>
-	<!-- end of event -->
-
-	<!-- footer -->
-	<footer>
-
-	</footer>
-	<!-- end of footer -->
-
-	<!-- copyrights -->
-	<section>
-
-	</section>
-	<!-- end of copyrights -->
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
